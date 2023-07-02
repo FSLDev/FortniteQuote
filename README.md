@@ -17,11 +17,19 @@ pip install pillow moviepy progressbar2 textwrap3 numpy
 ```
 
 # How to Use
-Clone this repository to your local machine.
 
-Update the `quotes` list in the Python script with your desired quotes.
+Download the latest version of [python](https://www.python.org/downloads/)
+
+[Clone](https://www.youtube.com/watch?v=CKcqniGu3tA) this repository to your local machine. 
+
+Update the `quotes` (line 10) list in the Python script with your desired quotes.
 
 Make sure to have a video file in the `input` directory. This will be used as the background for the quotes.
+If you want to change the video, make sure to change the path in line 70
+```bash
+# Load the input video
+input_video = VideoFileClip("input/Fortnite-Quote-Background.mp4")
+```
 
 Run the Python script:
 ```bash
