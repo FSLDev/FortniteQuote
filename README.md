@@ -16,7 +16,7 @@ You can install these libraries using pip:
 pip install pillow moviepy progressbar2 textwrap3 numpy
 ```
 
-#How to Use
+# How to Use
 Clone this repository to your local machine.
 
 Update the `quotes` list in the Python script with your desired quotes.
@@ -29,7 +29,7 @@ python fortnitequote.py
 ```
 The videos with the overlaid quotes will be saved in the `output` directory.
 
-#Code Example
+# Code Example
 Here is a snippet of the code in this project:
 
 ```bash
